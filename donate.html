@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="donate.css">
+    <script src="donate.js"></script>
+    <title>Donation page</title>
+</head>
+<body>
+    <section class="donation">
+    <div class="donate">
+      <p> Scan the QR code to donate money via UPI and fill out the form below it</p>
+      <p> Note: Since we are new, we do not have other payment options. Sorry for the inconvenience</p>  
+    </div>
+</section>
+
+<section class="qrcode">
+    <div class="qrimg">
+        <img src="qrcode.jpg" alt="QR Code" style="height: 500px; width: 500px;">
+    </div>
+</section>
+<section class="donationform">
+    <div class="donationform1">
+        <form method="post" action="donation.php">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <input type="number" name="amount" placeholder="Donation Amount" required>
+            <select name="currency" required>
+              <option value="USD">USD</option>
+              <option value="EUR">EUR</option>
+              <option value="GBP">GBP</option>
+              <option value="INR">INR</option>
+            
+            </select>
+            <input type="submit" name="submit" value="Donate">
+          </form>
+          
+    </div>
+</section>
+
+    
+</body>
+</html>

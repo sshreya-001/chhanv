@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --themered: #ed8433;
+    --gray: #efefef;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+button,
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.donation{
+    background: var(--gray);
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+
+}
+
+.donate{
+    text-align: center;
+
+}
+
+.qrimg{
+   display: flex;
+   justify-content: center;
+}
+
+.account{
+    padding: 50px;
+
+}
+.acc{
+    text-align: center;
+}
+.donationform{
+    justify-content: center;
+    display: flex;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
